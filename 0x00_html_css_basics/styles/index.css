@@ -1,0 +1,60 @@
+* {
+    font-style: italic;
+    font-family: sans-serif;
+    font-weight: 100; /* Corrected property name to set font weight */
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+
+#header {
+    background-color: green;
+    text-align: center;
+    color: red;
+    font-size: 20px;
+    height: 60px;
+}
+#header:hover{
+    background-color: red;
+    color: green;
+}
+
+span {
+    background-color: blue;
+}
+
+#name {
+    /* Removed align-items, added text-align */
+    text-align: left;
+}
+
+#main-content {
+    background-color: #8930ad;
+    flex: 1;
+    margin-top: 20px;
+}
+
+button {
+    background-color: black;
+    color: red;
+    align-self: center;
+    height: 10vh;
+    border-radius: 20px;
+    /* Removed unnecessary border-top property */
+}
+button:hover {
+    background-color: red;
+    color: black;
+}
+
+#footer {
+    background-color: blue;
+    color: yellow;
+    font-size: 20px;
+    text-align: center;
+    height: 60px;
+}
