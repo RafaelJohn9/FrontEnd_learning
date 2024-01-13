@@ -1,0 +1,80 @@
+img.githubLogo {
+    height: 40px;
+    width: 40px;
+    border: 20px;
+    border-radius: 20px;
+}
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    background-color: #353333;
+}
+header {
+    background-color: #202020;
+    color: white;
+    padding: 1em;
+    display: flex;
+    flex-direction: row;
+    -ms-flex-item-align: auto;
+    align-items: flex-start;
+    justify-content: left;
+}
+.search-button {
+    display: flex;
+    flex-direction: row;
+    margin-left: 1000px;
+    background: none;
+    color: white;
+}
+.searchLogo {
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 20px;
+    width: 20px;
+    background-color: #353333;
+}
+.hamburger-button {
+    border: none;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 35px;
+    height: 20px;
+    margin-right: 10px;
+    align-items: center;
+    background-color: #353333;
+    border: 1px solid;
+    border-radius: 3px;
+    border-color: #353333;
+
+
+  }
+  .line {
+    width: 20px;
+    height: 2px;
+    background-color: #0e0d0d;
+    size: 4px;
+  }
+  .hamburger-button:hover {
+    border-color: aliceblue;
+  }
+
+  .search-container {
+    background-color: #353333;
+  }
+  input{
+    background-color: #353333;
+  }
+  button{
+    background-color: #353333;
+    color: white;
+  }
+.background{
+    background-color: white;
+    width : 30%;
+    max-height: 100%;
+    display: block;
+}
