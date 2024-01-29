@@ -1,0 +1,17 @@
+body header footer {
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    color: orange;
+    align-items: center;
+}
+footer{
+    color: blue;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    position: fixed;
+
+}

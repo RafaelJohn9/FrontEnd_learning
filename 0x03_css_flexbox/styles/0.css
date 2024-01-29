@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 600px;
+    margin: 0 auto;
+}
+header{
+    background-color: greenyellow;
+    margin-top: 0;
+    height: 100px;
+}
+.top-container{
+    display: flex;
+    flex-direction: row;
+}
+.main-banner{
+    background-color: rgb(235, 171, 111);
+    height: 100px;
+    width: 50%;
+}
+.contact-form{
+    background-color: wheat;
+    width: 50%;
+}
+.blogposts{
+    display: flex;
+    flex-wrap: wrap;
+}
+.blogpost{
+    width: 33.33%;
+    background-color: skyblue;
+    border: 2px solid black;
+    height: 100px;
+    box-sizing: border-box;
+}
+footer{
+    height: 100px;
+    background-color: beige;
+}
