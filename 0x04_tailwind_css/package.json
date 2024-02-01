@@ -1,0 +1,9 @@
+{
+    "name": "your-project",
+    "version": "1.0.0",
+    "description": "Your project description",
+    "dependencies": {
+        "postcss": "^8.4.33",
+        "tailwindcss": "^2.2.19"
+    }
+}

@@ -1,0 +1,14 @@
+/* styles.css */
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+/* Your custom styles go here */
+@layer components {
+div {
+  @apply bg-black;
+}
+button {
+  @apply bg-blue-500 border-blue-700 border-4;
+}
+}
