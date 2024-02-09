@@ -1,0 +1,43 @@
+*{
+  margin: 0%;
+  padding: 0%;
+}
+header{
+  background-color: whitesmoke;
+  height: 50px;
+  padding-top: 15px;
+  box-shadow: 0px 2px 5px 0px;
+}
+
+nav{
+  display: flex;
+  justify-content: space-between;
+}
+.logo{
+  width: 70px;
+}
+
+.navItems{
+  list-style: none;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.navItems > li{
+  margin-right: 100px;
+}
+
+ol > li {
+  margin-top: 20px;
+
+}
+
+footer{
+  height: 40px;
+  bottom: 0;
+  position: fixed;
+  background-color: gray;
+  width: 100%;
+  text-align: center;
+  padding-top: 20px;
+}
